@@ -1,3 +1,5 @@
+#include<stdio.h>
+
 void rotate(int arr[], int n, int k) {
     if (k == 0) {
         return;
