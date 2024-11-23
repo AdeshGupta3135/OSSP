@@ -23,7 +23,7 @@ author: ADESH KUMAR GUPTA
   - NPM (Node Package Manager)
 
 # Project_structure:
-'''bash  
+``
   - Arena.js: Arena logic for handling player actions
   - Player.js: Player class implementation
   - index.js: Main game logic
@@ -32,8 +32,8 @@ author: ADESH KUMAR GUPTA
     - Player.test.js: Unit tests for Player class
   - package.json: Node.js project configuration file
   - .gitignore: Git ignore file
-  - README.md: Project documentation '''
-
+  - README.md: Project documentation
+``
 # how_to_build_and_run:
   setup:
     - Navigate to the project directory in your terminal.
