@@ -23,7 +23,6 @@ author: ADESH KUMAR GUPTA
   - NPM (Node Package Manager)
 
 # Project_structure:
-``
   - Arena.js: Arena logic for handling player actions
   - Player.js: Player class implementation
   - index.js: Main game logic
@@ -33,15 +32,18 @@ author: ADESH KUMAR GUPTA
   - package.json: Node.js project configuration file
   - .gitignore: Git ignore file
   - README.md: Project documentation
-``
+    
 # how_to_build_and_run:
   setup:
+  
     - Navigate to the project directory in your terminal.
     - Install dependencies with the command: `npm install`
   run_game:
+  
     - Start the game using the command: `node index.js`
 
 # how_to_play:
+
   - Two players are created with their initial attributes (health, strength, attack).
   - Players alternate between attacking and defending:
       - The attacker rolls a 6-sided die to calculate their attack.
@@ -50,11 +52,13 @@ author: ADESH KUMAR GUPTA
   - The game continues until one player's health reaches 0.
 
 # unit_tests:
+
  ## framework: Jest
   test_coverage:
     - Validates player health reduction.
     - Ensures damage calculation accuracy.
     - Confirms game-ending conditions.
   run_tests:
+  
     - Execute the tests with the command: `npm test`
 .
