@@ -10,6 +10,7 @@ author: ADESH KUMAR GUPTA
 
 
 # Features:
+
   - Players have attributes such as health, strength, and attack.
   - Players take turns attacking and defending using dice rolls.
   - Damage is calculated based on:
@@ -19,10 +20,12 @@ author: ADESH KUMAR GUPTA
   - The game ends when a player's health reaches 0.
 
 # Requirements:
+
   - Node.js (v16 or later)
   - NPM (Node Package Manager)
 
 # Project_structure:
+
   - Arena.js: Arena logic for handling player actions
   - Player.js: Player class implementation
   - index.js: Main game logic
@@ -34,6 +37,7 @@ author: ADESH KUMAR GUPTA
   - README.md: Project documentation
     
 # how_to_build_and_run:
+
   setup:
   
     - Navigate to the project directory in your terminal.
@@ -55,9 +59,11 @@ author: ADESH KUMAR GUPTA
 
  ## framework: Jest
   test_coverage:
+  
     - Validates player health reduction.
     - Ensures damage calculation accuracy.
     - Confirms game-ending conditions.
+    
   run_tests:
   
     - Execute the tests with the command: `npm test`
